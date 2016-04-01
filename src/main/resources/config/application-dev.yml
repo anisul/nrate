@@ -21,9 +21,9 @@ spring:
     datasource:
         driver-class-name: org.postgresql.ds.PGSimpleDataSource
         url: jdbc:postgresql://localhost:5432/nrate
-        name:
+        name: nrate
         username: nrate
-        password:
+        password: 1234
     jpa:
         database-platform: com.grasshopper.nrate.domain.util.FixedPostgreSQL82Dialect
         database: POSTGRESQL
