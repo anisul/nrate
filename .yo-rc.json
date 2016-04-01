@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "nrate",
+    "packageName": "com.grasshopper.nrate",
+    "packageFolder": "com/grasshopper/nrate",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "gulp",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "7322848fb99bfbcfbd5fe7e6f9ef2c5f138b4088",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
